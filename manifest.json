@@ -1,0 +1,20 @@
+{
+  "name": "MyEvent Checker",
+  "version": "0.1",
+  "description": "各イベントサイトに登録した自分のイベントを確認出来ます。現在対応しているサイトはATND BETA、connpassです。",
+  "icons": { "16": "images/icon16.png",
+             "48": "images/icon48.png",
+             "128": "images/icon128.png" },
+  "browser_action": {
+    "default_icon": "images/popup_icon.png",
+    "default_popup": "views/popup.html"
+
+  }, 
+  "options_page": "views/options.html", 
+
+  "permissions": [
+    "tabs",
+    "http://api.atnd.org/events/",
+    "http://connpass.com/api/v1/event/"
+  ] 
+}

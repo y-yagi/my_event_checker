@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+body {
+  background-color: #ebeff9;
+  font-family: Helvetica, Arial, sans-serif;
+} 
+
+#header {
+  padding-bottom: 1.5em;
+  padding-top: 1.5em; 
+  width: 600px;
+  margin: auto auto 0px;
+} 
+
+#content {
+  background-color: white;
+  border-bottom-left-radius: 12px 12px;
+  border-bottom-right-radius: 12px 12px;
+  border-color: #B5C7DE;
+  border-style: solid;
+  border-top-left-radius: 12px 12px;
+  border-top-right-radius: 12px 12px;
+  border-width: 4px;
+  margin: 0px auto 20px;
+  padding: 12px;
+  width: 600px;
+}   
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}  
+
+.rows {
+  height: 35px;
+  vertical-align: top;
+}
+.help-block {
+  display: block;
+  margin-bottom: 9px;
+} 
+
+#save {
+  margin-left: 130px;
+} 
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #0056a1;
+	padding: 5px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff 50%,
+		#b5b5b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		color-stop(0.50, #ffffff),
+		to(#b5b5b5));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 3px solid #0056a1;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}  
+
+#save_status {
+  font-weight: bold;
+  color: red;
+  margin-left: 50px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 7px;
+  padding-top: 8px;
+}
