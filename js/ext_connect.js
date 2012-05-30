@@ -24,7 +24,7 @@ var extConnect = function (site, url) {
     var title, date, url;
     var tag = $(site); 
     tag.innerHTML = ""; 
-  
+    
     for (var i = events.length - 1, event; event = events[i]; i--){
       li = document.createElement("li"); 
       li.className = "line";  
@@ -39,7 +39,7 @@ var extConnect = function (site, url) {
       a = document.createElement("a");
       a.setAttribute("href", url);
   
-      a.innerHTML = date + ":" + title;
+      a.innerHTML = date.replace('T', ' ').replace('+09:00', '') + " : " + title;
       li.appendChild(a);
       tag.appendChild(li);
       noData = false;
