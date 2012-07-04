@@ -15,6 +15,7 @@
   "permissions": [
     "tabs",
     "http://api.atnd.org/events/",
-    "http://connpass.com/api/v1/event/"
+    "http://connpass.com/api/v1/event/",
+    "http://www.zusaar.com/api/event/"
   ] 
 }

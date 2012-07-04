@@ -18,7 +18,7 @@ var extConnect = function (site, url) {
 
   function show() {
     var response = JSON.parse(req.responseText);
-    var events = response.events;
+    var events = response.events || response.event; // Zusaarはevent
     var noData = true;
     var li, a;
     var title, date, url;
