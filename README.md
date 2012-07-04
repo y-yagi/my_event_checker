@@ -1,6 +1,8 @@
 # MyEventChecker 
-各イベントサイトから参加予定のイベントの一覧を確認するためのGoogle Chromeのexntensionです。 
-現在対応しているサイトは、ATND BETA、connpassです。
+各イベントサイトから参加予定のイベントの一覧を確認するためのGoogle Chromeのexntensionです。  
+※イベントはニックネームをキーに取得しています。その為、正確ではありません。
+
+現在対応しているサイトは、ATND BETA、connpass、Zusaarです。
 
 ## How to install 
 Googleg Chromeのツール→拡張機能の"パッケージ化されていない拡張機能を読み込む"ボタンより読み込んで下さい。
